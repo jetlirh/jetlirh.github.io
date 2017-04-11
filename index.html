@@ -1,18 +1,35 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-	
-		<title>Lalalla</title>
-	</head>
-	
-	
-	<body>
-		
-		<ul>Une jom lista
-		
-			<li>Une jom liri</li>
-		</ul>
-	
-	</body>
+<title>LocationCamera</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<body>
 
+<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+  <input  class="w3-bar-item w3-button w3-search"  type="search">
+  <a href="#" class="w3-bar-item w3-button">Qyteti a</a>
+  <a href="#" class="w3-bar-item w3-button">Qyteti b</a>
+  <a href="#" class="w3-bar-item w3-button">Qyteti c</a>
+</div>
+
+<div zclass="w3-main" id="main">
+
+<div class="w3-teal">
+  <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+  <button>Add a new Location</button>
+    <h1>Location Camera</h1>
+  </div>
+</div>
+
+<img src="http://www.ekonomiaonline.com/wp-content/uploads/2016/09/UBT-Campus-850x567.jpg" alt="Car" style="width:100%">
+
+<div class="w3-container">
+<p>N'vend te fotos paraqitet lokacioni i fotografuar nga kamera , the sidebar is hidden (style="display:none")</p>
+</div>
+
+</div>
+<script src="javascript.js"></script>
+</body>
 </html>
